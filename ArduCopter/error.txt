@@ -1,0 +1,339 @@
+[0mSetting top to                           :[0m [32m/home/scapstone/ardupilot[0m 
+[0mSetting out to                           :[0m [32m/home/scapstone/ardupilot/build[0m 
+[0mAutoconfiguration                        :[0m [32menabled[0m 
+[0mChecking for program 'python'            :[0m [32m/home/scapstone/venv-ardupilot/bin/python3[0m 
+[0mChecking for python version >= 3.8.0     :[0m [32m3.12.3[0m 
+[0mSetting board to                         :[0m [32msitl[0m 
+[0mUsing toolchain                          :[0m [32mnative[0m 
+[0mChecking for 'g++' (C++ compiler)        :[0m [32m/usr/lib/ccache/g++[0m 
+[0mChecking for 'gcc' (C compiler)          :[0m [32m/usr/lib/ccache/gcc[0m 
+[0mChecking for c flags '-MMD'              :[0m [32myes[0m 
+[0mChecking for cxx flags '-MMD'            :[0m [32myes[0m 
+[0mCXX Compiler                             :[0m [32mg++ 13.3.0[0m 
+[0mChecking for need to link with librt     :[0m [32mnot necessary[0m 
+[0mChecking for feenableexcept              :[0m [32myes[0m 
+[0mEnabling -Werror                         :[0m [32mno[0m 
+[0mEnabled OpenDroneID                      :[0m [33mno[0m 
+[0mEnabled firmware ID checking             :[0m [33mno[0m 
+[0mGPS Debug Logging                        :[0m [33mno[0m 
+[0mEnabled custom controller                :[0m [32myes[0m 
+[0mChecking for HAVE_CMATH_ISFINITE         :[0m [32myes[0m 
+[0mChecking for HAVE_CMATH_ISINF            :[0m [32myes[0m 
+[0mChecking for HAVE_CMATH_ISNAN            :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISFINITE_STD_NAMESPACE :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISINF_STD_NAMESPACE    :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISNAN_STD_NAMESPACE    :[0m [32myes[0m 
+[0mChecking for header endian.h                   :[0m [32myes[0m 
+[0mChecking for header byteswap.h                 :[0m [32myes[0m 
+[0mChecking for HAVE_MEMRCHR                      :[0m [32myes[0m 
+[0mConfigured VSCode Intellisense:                :[0m [33mno[0m 
+[0mDC_DSDL compiler in                            :[0m [32m/home/scapstone/ardupilot/modules/DroneCAN/dronecan_dsdlc[0m 
+[0mSource is git repository                       :[0m [32myes[0m 
+[0mUpdate submodules                              :[0m [32myes[0m 
+[0mChecking for program 'git'                     :[0m [32m/usr/bin/git[0m 
+[0mLittlefs                                       :[0m [33mdisabled[0m 
+[0mChecking for program 'size'                    :[0m [32m/usr/bin/size[0m 
+[0mBenchmarks                                     :[0m [33mdisabled[0m 
+[0mUnit tests                                     :[0m [32menabled[0m 
+[0mScripting                                      :[0m [32mmaybe[0m 
+[0mScripting runtime checks                       :[0m [32menabled[0m 
+[0mDebug build                                    :[0m [33mdisabled[0m 
+[0mCoverage build                                 :[0m [33mdisabled[0m 
+[0mForce 32-bit build                             :[0m [33mdisabled[0m 
+[0mChecking for program 'rsync'                   :[0m [32m/usr/bin/rsync[0m 
+Removing target_list file /home/scapstone/ardupilot/build/sitl/target_list
+'configure' finished successfully (0.774s)
+Waf: Entering directory `/home/scapstone/ardupilot/build/sitl'
+Embedding file locations.txt:Tools/autotest/locations.txt
+Embedding file models/Callisto.json:Tools/autotest/models/Callisto.json
+Embedding file models/freestyle.json:Tools/autotest/models/freestyle.json
+Embedding file models/plane-3d.parm:Tools/autotest/models/plane-3d.parm
+Embedding file models/plane.parm:Tools/autotest/models/plane.parm
+Embedding file models/skywalker_2013.json:Tools/autotest/models/skywalker_2013.json
+Embedding file models/xplane_heli.json:Tools/autotest/models/xplane_heli.json
+Embedding file models/xplane_plane.json:Tools/autotest/models/xplane_plane.json
+No target_list file found, creating
+Generating compile_commands.json
+Build commands will be stored in build/sitl/compile_commands.json
+Generating compile_commands.json
+Build commands will be stored in build/sitl/compile_commands.json
+[1382/1383] Linking build/sitl/bin/arducopter
+[1383/1383] checking symbols build/sitl/bin/arducopter
+Waf: Leaving directory `/home/scapstone/ardupilot/build/sitl'
+
+BUILD SUMMARY
+Build directory: /home/scapstone/ardupilot/build/sitl
+Target          Text (B)  Data (B)  BSS (B)  Total Flash Used (B)  Free Flash (B)  External Flash Used (B)
+----------------------------------------------------------------------------------------------------------
+bin/arducopter   4243528    199869   278144               4443397  Not Applicable  Not Applicable         
+
+'build' finished successfully (1.282s)
+RiTW: Starting ArduCopter : /home/scapstone/ardupilot/build/sitl/bin/arducopter --model + --speedup 1 --slave 0 --enable-fgview --defaults ../Tools/autotest/default_params/copter.parm --sim-address=127.0.0.1 -I0 --home 33.47985616504755,-81.97074562080267,0.0,0.0
+Connect tcp:127.0.0.1:5760 source_system=255
+Loaded module console
+Loaded module map
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+MAV> Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Detected vehicle 1:1 on link 0
+STABILIZE> Warning, time moved backwards. Restarting timer.
+Received 1359 parameters (ftp)
+Saved 1359 parameters to mav.parm
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+STABILIZE> Unknown command 'well'
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+STABILIZE> GUIDED> Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+GUIDED> Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+GUIDED> ERROR in command ['40\\']: could not convert string to float: '40\\'
+GUIDED> Take Off started
+GUIDED> GUIDED> SIM_VEHICLE: Start
+SIM_VEHICLE: Killing tasks
+SIM_VEHICLE: Starting up at [33.47985616504755, -81.97074562080267, 0.0, 0.0] (GCCS)
+SIM_VEHICLE: WAF build
+SIM_VEHICLE: Configure waf
+SIM_VEHICLE: "/home/scapstone/ardupilot/modules/waf/waf-light" "configure" "--board" "sitl"
+{'model': '+', 'waf_target': 'bin/arducopter', 'default_params_filename': 'default_params/copter.parm', 'sitl-port': True}
+SIM_VEHICLE: Building
+SIM_VEHICLE: "/home/scapstone/ardupilot/modules/waf/waf-light" "build" "--target" "bin/arducopter"
+SIM_VEHICLE: Using defaults from (../Tools/autotest/default_params/copter.parm)
+SIM_VEHICLE: Run ArduCopter
+SIM_VEHICLE: "/home/scapstone/ardupilot/Tools/autotest/run_in_terminal_window.sh" "ArduCopter" "/home/scapstone/ardupilot/build/sitl/bin/arducopter" "--model" "+" "--speedup" "1" "--slave" "0" "--enable-fgview" "--defaults" "../Tools/autotest/default_params/copter.parm" "--sim-address=127.0.0.1" "-I0" "--home" "33.47985616504755,-81.97074562080267,0.0,0.0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--retries" "5" "--out" "172.27.32.1:14550" "--master" "tcp:127.0.0.1:5760" "--sitl" "127.0.0.1:5501" "--map" "--console"
+SIM_VEHICLE: Keyboard Interrupt received ...
+Take Off started
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+Warning, time moved backwards. Restarting timer.
+SIM_VEHICLE: Killing tasks
