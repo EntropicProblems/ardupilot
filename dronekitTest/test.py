@@ -57,7 +57,7 @@ print (" Mode: %s" % vehicle.mode.name)
 
 #BEGIN MOVEMENT PART
 vehicle.mode = VehicleMode("GUIDED")
-a_location = LocationGlobalRelative(37.61646588, -122.3860947, 30)#just above the KSFO airport terminal
+a_location = LocationGlobalRelative(33.48559092968529, -81.97467282453941, 30)#just above the KSFO airport terminal
 vehicle.simple_goto(a_location)
 
 
